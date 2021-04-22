@@ -1,8 +1,8 @@
 # Workshop of Human Cell Atlas
 
-## DOWNLOAD DATA
+## Download Data
 
-### Selecting datasets
+### SELECTING DATASETS
 
 We will analize single-cell RNA-seq (scRNA-seq) data from [Chen, J., Tan, Y., Sun, F., Hou, L., Zhang, C., Ge, T., ... & Zhang, P. (2020). Single-cell transcriptome and antigen-immunoglobin analysis reveals the diversity of B cells in non-small cell lung cancer. Genome biology, 21(1), 1-21.](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02064-6). It is a from lung cancer patients. 
 
@@ -32,10 +32,16 @@ Raw data from the 11 scRNA-seq datasets can be downloaded from SRA under [PRJNA6
 > - We then used `fastq-dump` using paralelization following [bioinformatics workbook tutorial](https://bioinformaticsworkbook.org/dataAcquisition/fileTran> sfer/sra.html#gsc.tab=0) and [EdwarsLab tutorial](https://edwards.sdsu.edu/research/fastq-dump/). 
 > 
 > ```bash
-> cat SRR.numbers | parallel -j 80 fastq-dump -I --split-files --skip-technical > --readids --dumpbase --clip --split-3 --gzip --outdir out/ {}
+> cat SRR_Acc_List.txt | parallel -j 80 fastq-dump -I --split-files --skip-technical > --readids --dumpbase --clip --split-3 --gzip --outdir out/ {}
 > ```
 >
 > - We checked the file size. `ls -l --block-size=G`
+
+#### **Option 2**: *ENA*
+
+We can also download `fastq` files from [ENA repoitory](https://www.ebi.ac.uk/ena/browser/view/PRJNA634159). 
+
+
 
 ---
 
