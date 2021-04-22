@@ -39,7 +39,7 @@ Raw data from the 11 scRNA-seq datasets can be downloaded from SRA under [PRJNA6
 
 #### **Option 2**: *ENA*
 
-We can also download `fastq` files from [ENA repoitory](https://www.ebi.ac.uk/ena/browser/view/PRJNA634159). 
+> We can also download `fastq` files from [ENA repoitory](https://www.ebi.ac.uk/ena/browser/view/PRJNA634159). 
 
 
 
