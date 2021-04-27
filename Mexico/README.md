@@ -82,6 +82,38 @@ tar -xzvf refdata-gex-GRCh38-2020-A.tar.gz
 
 ```
 
+### RUN CELL RANGER
+
+#### 1. Rename files
+
+Option 1:
+
+```bash
+mv $SAMPLE'.R1.fastq.gz'  $SAMPLE'_S1_L001_R1_001.fastq.gz'
+mv $SAMPLE'.R2.fastq.gz'  $SAMPLE'_S1_L001_I1_001.fastq.gz'
+mv $SAMPLE'.R3.fastq.gz'  $SAMPLE'_S1_L001_R2_001.fastq.gz'
+````
+
+Option 2:
+
+```bash
+mv $SAMPLE'_R1.fastq.gz'  $SAMPLE'_S1_L001_R1_001.fastq.gz'
+mv $SAMPLE'_R2.fastq.gz'  $SAMPLE'_S1_L001_R2_001.fastq.gz'
+````
+
+
+#### 2. Run Cell Ranger
+
+--id = Sample name and output directory
+--sample = Sample name
+--transcriptome = Path to reference transcriptome
+--fastqs = Path to fastq directory
+--localcores = Number of cores to use
+--localmem = Amount of memory to use
+
+```bash
+cellranger count --id=$SAMPLE --sample=$SAMPLE --transcriptome=/opt/refdata-gex-GRCh38-2020-A --fastqs=fastqs/$SAMPLE --localcores=50 --localmem=300
+````
 
 ---
 
