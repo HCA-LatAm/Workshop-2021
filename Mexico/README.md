@@ -4,7 +4,7 @@
 
 | Title                                                     | Speaker          | Day    | Time (GMT-5) | Notes |
 |-----------------------------------------------------------|------------------|--------|--------------|-------|
-| [Getting started with scRNA-seq analyses with Bioconductor](https://lcolladotor.github.io/HCA_LA_2021/) | [Leonardo Collado](https://lcolladotor.github.io/es/) | Monday | 9:00 am      |  [Additional slides](https://docs.google.com/presentation/d/1CgBtdoE5GAhbqAaGzxR5HEkUTbXNZsKEfym90996vWQ/edit#slide=id.gd6ceee5608_0_1874)     |
+| [Getting started with scRNA-seq analyses with Bioconductor](https://lcolladotor.github.io/HCA_LA_2021/) | [Leonardo Collado](https://lcolladotor.github.io/es/) | Monday | 9:00 am      |  [ Slides](https://docs.google.com/presentation/d/1CgBtdoE5GAhbqAaGzxR5HEkUTbXNZsKEfym90996vWQ/edit?usp=sharing)     |
 |                                                           |                  |        |              |       |
 |                                                           |                  |        |              |       |
 
