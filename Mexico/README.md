@@ -10,15 +10,15 @@
 
 ## Setup Workplace Server 
 
-This workshop will be run in a UNAM server. Please check [additional information](https://github.com/HCA-LatAm/Workshop-2021/tree/main/Mexico/docs/HCA-Accesos.pdf)
+This workshop will be run in an UNAM server. Please check [additional information](https://github.com/HCA-LatAm/Workshop-2021/tree/main/Mexico/docs/HCA-Accesos.pdf)
 
 ## Download Data
 
 ### SELECTING DATASETS
 
-We will analize single-cell RNA-seq (scRNA-seq) data from [Lambrechts D, Wauters E, Boeckx B, Aibar S, Nittner D, Burton O, Bassez A, Decaluwé H, Pircher A, Van den Eynde K, Weynand B. Phenotype molding of stromal cells in the lung tumor microenvironment. Nature medicine. 2018 Aug;24(8):1277-89.](https://www.nature.com/articles/s41591-018-0096-5#MOESM1). It is a from lung cancer patients. 
+We will analize single-cell RNA-seq (scRNA-seq) data from [Lambrechts D, Wauters E, Boeckx B, Aibar S, Nittner D, Burton O, Bassez A, Decaluwé H, Pircher A, Van den Eynde K, Weynand B. Phenotype molding of stromal cells in the lung tumor microenvironment. Nature medicine. 2018 Aug;24(8):1277-89.](https://www.nature.com/articles/s41591-018-0096-5#MOESM1). It is a lung cancer patients. 
 
-Raw data from the 11 scRNA-seq datasets can be downloaded from SRA under [E-MTAB-6149](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6149/).
+Raw data can be downloaded from ArryaExpress [E-MTAB-6149](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6149/).
 
 
 ### DOWNLOAD FASTQ
