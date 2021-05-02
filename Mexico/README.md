@@ -1,18 +1,36 @@
 # Workshop of Human Cell Atlas
 
+## Schedule 
+
+| Title                                                     | Speaker          | Day    | Time (GMT-5) | Notes |
+|-----------------------------------------------------------|------------------|--------|--------------|-------|
+| [Getting started with scRNA-seq analyses with Bioconductor](https://lcolladotor.github.io/HCA_LA_2021/) | [Leonardo Collado](https://lcolladotor.github.io/es/) | Monday | 9:00 am      |  [ Slides](https://docs.google.com/presentation/d/1CgBtdoE5GAhbqAaGzxR5HEkUTbXNZsKEfym90996vWQ/edit?usp=sharing)     |
+|                                                           |                  |        |              |       |
+|                                                           |                  |        |              |       |
+
+## Setup Workplace Server 
+
+This workshop will be run in an UNAM server. Please check [additional information](https://github.com/HCA-LatAm/Workshop-2021/tree/main/Mexico/docs/HCA-Accesos.pdf)
+
 ## Download Data
 
 ### SELECTING DATASETS
 
-We will analize single-cell RNA-seq (scRNA-seq) data from [Chen, J., Tan, Y., Sun, F., Hou, L., Zhang, C., Ge, T., ... & Zhang, P. (2020). Single-cell transcriptome and antigen-immunoglobin analysis reveals the diversity of B cells in non-small cell lung cancer. Genome biology, 21(1), 1-21.](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02064-6). It is a from lung cancer patients. 
+We will analize single-cell RNA-seq (scRNA-seq) data from [Lambrechts D, Wauters E, Boeckx B, Aibar S, Nittner D, Burton O, Bassez A, Decaluwé H, Pircher A, Van den Eynde K, Weynand B. Phenotype molding of stromal cells in the lung tumor microenvironment. Nature medicine. 2018 Aug;24(8):1277-89.](https://www.nature.com/articles/s41591-018-0096-5#MOESM1). It is a lung cancer patients. 
 
-Raw data from the 11 scRNA-seq datasets can be downloaded from SRA under [PRJNA634159](https://www.ncbi.nlm.nih.gov/sra/PRJNA634159).
+Raw data can be downloaded from ArryaExpress [E-MTAB-6149](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6149/).
 
 
 ### DOWNLOAD FASTQ
 
-#### **Option 1**: *SRA toolkit*
- 
+#### **Option 1**: *ArrayExpress*
+
+> We can also download `fastq` files from [ArrayExpress repoitory](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6149/). 
+
+
+#### **Option 2**:  *SRA toolkit*
+
+
 > #### 1. SRA toolkit installation 
 > 
 > We used [SRA toolkit](https://www.ncbi.nlm.nih.gov/sra/docs/sradownload/) > following the [wiki docs](https://github.com/ncbi/sra-tools/wiki).
@@ -36,11 +54,6 @@ Raw data from the 11 scRNA-seq datasets can be downloaded from SRA under [PRJNA6
 > ```
 >
 > - We checked the file size. `ls -l --block-size=G`
-
-#### **Option 2**: *ENA*
-
-> We can also download `fastq` files from [ENA repoitory](https://www.ebi.ac.uk/ena/browser/view/PRJNA634159). 
-
 
 
 ---
